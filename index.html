@@ -1,67 +1,73 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Artificial Satellite Monitor Gateway</title>
-	<style>
-      	*{
-	      font-family: courier;
-      	}
-      	div.a{
-	      margin-left: 60px;
-      	}
-      	div.b{
-	      text-align: center;
-      	}
-    	</style>
+		<title>Home</title>
+		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<div class="a">
-			<h1>Artificial Satellite Monitor Gateway</h1>
+		<div class="banner">
+			<h1>Banner</h1>
 		</div>
-		
-		<br />
-		
-		<div class="b">
-			<h1>How it works!</h1>
-		</div>
-		
+
 		<hr>
 
-		<h2>REGISTER FOR AN ACCOUNT</h2>
-		<p>The first thing you need to do is register 
-		for an account.</p>
-		<p>After registering you will be able to submit 
-		requests for picking up and have your food delivered 
-		to your door!</p>
-		<br />
-		<br />
+		<div class="headline">
+			<!-- <img src="images/logo.png" alt="Company Logo"> -->
+			<a href="register.html">Sign in / Register</a>
+		</div>
+
+		<div style="clear: both;"></div>
 		
-		<h2>ORDER YOUR FOOD</h2>
-		<p>Place an order for food from a local restaurant 
-		and the system will automatically find the nearest 
-		driver at the best cost.</p>
-		<br />
-		<br />
+		<hr>
+		<br>
+		<br>
 		
-		<h2>CONFIRM YOUR REQUEST</h2>
-		<p>Before any request is submitted, you have the chance
-		to review it and make any changes or cancellations.</p>
-		<br />
-		<br />
-		<br />
+		<div class="image" style="background-image: url(images/satellite.jpg);">
+			<div class="centered">Try A New Meal Today</div>
+		</div>
+		
+		<br>
+		<br>
+
+		<div class="findDriver">
+			<h2>Find a driver near you!</h2>
+			<p>Type in your zipcode below and click Go! to find a driver near you</p>
+			<input type="text" id="zipcode" maxlength="5" />
+			<button type="submit">Go!</button>
+		</div>
+
+		<br>
 		
 		<hr>
 		
 		<br />
-		<br />
 		
-		<div>
+		<div class="foot">
 			<footer>
-				<ul>
-					<li><a href="file:///C:/Users/Yue/Desktop/revature/register.html">Register</a></li>
-				</ul>
-				<small>&copy; Copyright 2018, Foodar</small>
+				<table>
+					<tr>
+						<th rowspan="3" align="left">
+							<ul>
+								<li><a href="index.html">Home</a><br>
+								<li><a href="register.html">Register</a></li>
+								<li><a href="about.html">How it all works</a></li>
+							</ul>						
+						</th>
+
+						<th rowspan="3" align="center">
+							<ul>
+								<li><a href="">Privacy Policy</a></li>
+								<li><a href="">Terms & Conditions</a></li>
+							</ul>
+						</th>
+
+						<th rowspan="3" align="right">
+							Lucky You:)<br><small>&copy; Copyright 2018, Foodar</small>
+						</th>
+					</tr>
+				</table>
 			</footer>
 		</div>
 	</body>
 </html>
+		
