@@ -10,8 +10,8 @@ html,body {
   border: 0;
 }
 
-body {
-  padding: 0 40px;
+#main {
+  padding: 0 20%;
 }
 
 p {
